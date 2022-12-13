@@ -1,5 +1,8 @@
 #mammal is the base class
 class mammal:
+
+    def setName(self, name):
+      self.mammel_name = name
       
     def setHair_Color(self, color):
         self.hair_color = color
